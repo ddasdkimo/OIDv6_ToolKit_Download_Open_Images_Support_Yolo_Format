@@ -8,6 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # docker push raidavid/oidv6yolo
 # docker run \
 # -it \
+# -v /ftp/david/Database/OIDv6:/app/OID
 # -d \
 # --name oidv6yolo \
 # raidavid/oidv6yolo
